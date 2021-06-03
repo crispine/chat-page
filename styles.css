@@ -1,0 +1,450 @@
+body {
+  background-color: lightgrey;
+  font-family: Verdana, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #444444;
+  margin-bottom: 30px;
+}
+
+.header-title {
+  color: white;
+  padding: 9px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.main-img {
+  border-radius: 50%;
+  margin-bottom: 5px;
+  max-width: 75%;
+  height: auto;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.main-title {
+  text-align: left;
+  margin: 20px;
+  font-weight: 300;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.main-subtitle {
+  text-align: left;
+  margin: 20px;
+  color: #db4c64;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.main-text {
+  text-align: left;
+  margin: 20px;
+  font-weight: 300;
+  font-size: large;
+}
+
+.footer {
+  background-color: #444444;
+  text-align: center;
+  color: white;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.footer-text {
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+  font-weight: 300;
+  font-size: large;
+}
+
+.header-chat {
+  background-color: #444444;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-chat-text {
+  color: white;
+  font-weight: 500;
+  font-size: small;
+  text-decoration: none;
+  padding: 0;
+  padding-left: 6px;
+  position: absolute;
+}
+
+.header-chat-title {
+  color: white;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-chat-box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 6px;
+}
+
+.main-chat-box1-img {
+  border-radius: 50%;
+  max-width: 20%;
+  height: auto;
+  border: 2px solid white;
+  margin: 15px;
+}
+
+.main-chat-box1-box {
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  margin: 6px;
+}
+
+.main-chat-box1-box-text {
+  font-weight: 300;
+  font-size: large;
+  padding: 6px;
+}
+
+.main-chat-box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-bottom: 0;
+}
+
+.main-chat-box2-box {
+  width: 50%;
+  height: 50%;
+  background-color: #4893bb;
+  margin: 6px;
+}
+
+.main-chat-box2-box-text {
+  color: white;
+  font-weight: 300;
+  font-size: large;
+  padding: 6px;
+}
+
+.main-chat-box2-img {
+  border-radius: 50%;
+  max-width: 20%;
+  height: auto;
+  border: 2px solid white;
+  margin: 15px;
+}
+
+.footer-chat {
+  margin: 10%;
+  margin-top: 0;
+}
+
+.footer-chat-text {
+  margin-bottom: 4px;
+}
+
+.footer-chat-box {
+  width: 100%;
+  height: 25px;
+}
+
+@media all and (min-width: 768px) {
+  .header {
+    margin-bottom: 30px;
+  }
+  .header-title {
+    padding: 9px;
+  }
+  .main {
+    margin-bottom: 60px;
+  }
+  .main-img {
+    margin-bottom: 5px;
+  }
+  .main-title {
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  .main-subtitle {
+    margin: 20px;
+    margin-top: 0;
+  }
+  .main-text {
+    margin: 20px;
+  }
+  .footer {
+    margin: 20px;
+  }
+  .footer-text {
+    padding: 20px;
+  }
+  .header-chat {
+    margin-bottom: 40px;
+  }
+  .header-chat-text {
+    padding: 0;
+    padding-left: 6px;
+    position: absolute;
+  }
+  .header-chat-title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-chat-box1 {
+    margin-bottom: 6px;
+  }
+  .main-chat-box1-img {
+    border-radius: 50%;
+    max-width: 20%;
+    height: auto;
+    margin: 15px;
+  }
+  .main-chat-box1-box {
+    width: 50%;
+    height: 50%;
+    margin: 6px;
+  }
+  .main-chat-box1-box-text {
+    padding: 6px;
+  }
+  .main-chat-box2 {
+    margin-bottom: 0;
+  }
+  .main-chat-box2-box {
+    width: 50%;
+    height: 50%;
+    margin: 6px;
+  }
+  .main-chat-box2-box-text {
+    padding: 6px;
+  }
+  .main-chat-box2-img {
+    border-radius: 50%;
+    max-width: 20%;
+    height: auto;
+    margin: 15px;
+  }
+  .footer-chat {
+    margin: 10%;
+    margin-top: 0;
+  }
+  .footer-chat-text {
+    margin-bottom: 4px;
+  }
+  .footer-chat-box {
+    width: 100%;
+    height: 25px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .header {
+    margin-bottom: 30px;
+  }
+  .header-title {
+    padding: 9px;
+  }
+  .main {
+    margin-bottom: 60px;
+  }
+  .main-img {
+    margin-bottom: 5px;
+  }
+  .main-title {
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  .main-subtitle {
+    margin: 20px;
+    margin-top: 0;
+  }
+  .main-text {
+    margin: 20px;
+  }
+  .footer {
+    margin: 20px;
+  }
+  .footer-text {
+    padding: 20px;
+  }
+  .header-chat {
+    margin-bottom: 40px;
+  }
+  .header-chat-text {
+    padding: 0;
+    padding-left: 6px;
+    position: absolute;
+  }
+  .header-chat-title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-chat-box1 {
+    margin-bottom: 6px;
+  }
+  .main-chat-box1-img {
+    border-radius: 50%;
+    max-width: 20%;
+    height: auto;
+    margin: 15px;
+  }
+  .main-chat-box1-box {
+    width: 50%;
+    height: 50%;
+    margin: 6px;
+  }
+  .main-chat-box1-box-text {
+    padding: 6px;
+  }
+  .main-chat-box2 {
+    margin-bottom: 0;
+  }
+  .main-chat-box2-box {
+    width: 50%;
+    height: 50%;
+    margin: 6px;
+  }
+  .main-chat-box2-box-text {
+    padding: 6px;
+  }
+  .main-chat-box2-img {
+    border-radius: 50%;
+    max-width: 20%;
+    height: auto;
+    margin: 15px;
+  }
+  .footer-chat {
+    margin: 10%;
+    margin-top: 0;
+  }
+  .footer-chat-text {
+    margin-bottom: 4px;
+  }
+  .footer-chat-box {
+    width: 100%;
+    height: 25px;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  .header {
+    margin-bottom: 30px;
+  }
+  .header-title {
+    padding: 9px;
+  }
+  .main {
+    margin-bottom: 60px;
+  }
+  .main-img {
+    margin-bottom: 5px;
+  }
+  .main-title {
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  .main-subtitle {
+    margin: 20px;
+    margin-top: 0;
+  }
+  .main-text {
+    margin: 20px;
+  }
+  .footer {
+    margin: 20px;
+  }
+  .footer-text {
+    padding: 20px;
+  }
+  .header-chat {
+    margin-bottom: 40px;
+  }
+  .header-chat-text {
+    padding: 0;
+    padding-left: 6px;
+    position: absolute;
+  }
+  .header-chat-title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main-chat-box1 {
+    margin-bottom: 6px;
+  }
+  .main-chat-box1-img {
+    border-radius: 50%;
+    max-width: 20%;
+    height: auto;
+    margin: 15px;
+  }
+  .main-chat-box1-box {
+    width: 50%;
+    height: 50%;
+    margin: 6px;
+  }
+  .main-chat-box1-box-text {
+    padding: 6px;
+  }
+  .main-chat-box2 {
+    margin-bottom: 0;
+  }
+  .main-chat-box2-box {
+    width: 50%;
+    height: 50%;
+    margin: 6px;
+  }
+  .main-chat-box2-box-text {
+    padding: 6px;
+  }
+  .main-chat-box2-img {
+    border-radius: 50%;
+    max-width: 20%;
+    height: auto;
+    margin: 15px;
+  }
+  .footer-chat {
+    margin: 10%;
+    margin-top: 0;
+  }
+  .footer-chat-text {
+    margin-bottom: 4px;
+  }
+  .footer-chat-box {
+    width: 100%;
+    height: 25px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
